@@ -8,8 +8,8 @@ const main = async () => {
         sequelize.sync();
         console.log("DB connected");
         app.listen(PORT);
-        console.log(`👉 Server running on port ${PORT}`);
-        console.log(`👉 Link http://localhost:${PORT}`);
+        console.log(`➡️  Server running on port ${PORT}`);
+        console.log(`➡️  Link http://localhost:${PORT}`);
     } catch (error) {
         console.log(error)
     }
